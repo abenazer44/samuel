@@ -1,4 +1,4 @@
-<style>body {
+body {
     background-color: rgb(232, 243, 242);
 }
 
@@ -16,4 +16,25 @@ hr {
 
 }
 
-</style>
+h1 {
+    color: #66bfbf;
+
+}
+
+h2 {
+    color: #a6d4d4;
+}
+
+h3 {
+    color: #a6d4d4;
+}
+
+aquamarine {
+    color: #a6d4d4;
+}
+
+a:-webkit-any-link"aqua {
+ color: rgb(48, 43, 0);
+cursor:;
+text-decoration: burlywood;
+}
