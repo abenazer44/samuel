@@ -1,6 +1,11 @@
 body {
     background-color: rgb(232, 243, 242);
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
+
 
 
 hr {
@@ -18,7 +23,11 @@ hr {
 
 h1 {
     color: #66bfbf;
-
+    margin-block-start: 0;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 h2 {
@@ -29,12 +38,30 @@ h3 {
     color: #a6d4d4;
 }
 
-aquamarine {
+.aqu {
     color: #a6d4d4;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    list-style-type: lower-alpha;
+    font-style: oblique;
 }
 
-a:-webkit-any-link"aqua {
- color: rgb(48, 43, 0);
-cursor:;
-text-decoration: burlywood;
+.hide:hover {
+    color: green;
+    text-transform: capitalize;
+}
+
+div {
+    margin: 0%;
+    background-color: #f2e2b3;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: initial;
+    margin-block-start: 0;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
